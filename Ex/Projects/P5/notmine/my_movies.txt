@@ -1,0 +1,5 @@
+Title	Year	Length(min)	genres
+The Avengers	2012	143	Action,Adventure,Sci-Fi,Fiction
+Avengers: Age of Ultron	2015	142	Action,Adventure,Sci-Fi,Fantasy
+Avengers: Infinity War	2018	160	Action,Adventure,Sci-Fi,Fiction
+Avengers: Endgame	2019	182	Action,Adventure,Sci-Fi,Fantasy

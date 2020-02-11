@@ -1,0 +1,27 @@
+
+ public static String convertLineToGreyScale(String line) {
+      //return "hah";
+      Scanner in = new Scanner(line);
+      String pxl = "";
+      int sum = 0;
+      do {
+         sum = 0;
+         for (int i = 1; i <= 3; i++) {
+            sum += in .nextInt();
+            //      System.out.println("Sum: " + sum);
+         }
+         double mean = (double) sum / 3;
+         //  System.out.println("mean: " + mean);
+         int meanInt = (int) mean;
+         //   System.out.println("meanInt: " + meanInt);
+         //            System.out.println(meanInt);
+         if ( in .hasNext()) {
+            pxl += meanInt + " " + meanInt + " " + meanInt + " ";
+         } else if (! in .hasNext()) {
+         
+            pxl += meanInt + " " + meanInt + " " + meanInt + "";
+         }
+      } while ( in .hasNext()); 
+      in .close();
+      return pxl;
+   }

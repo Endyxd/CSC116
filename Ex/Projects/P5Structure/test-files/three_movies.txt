@@ -1,0 +1,4 @@
+Title	Year	Length(min)	genres
+Sleeping Beauty	1959	75	Animation,Family,Fantasy
+Snow White and the Seven Dwarfs	1937	83	Animation,Family,Fantasy
+The Adventures of Pinocchio	1936	60	Animation,Fantasy
